@@ -79,11 +79,10 @@ form.addEventListener("submit", function (event) {
   }
 
   output.innerHTML = `
-  <h2>Preference Submitted</h2>
+  <h2>Ticket Created</h2>
   <p>${firstName} ${lastName}</p>
   <p>Email: ${email}</p>
   <p>Date: ${eventDate}</p>
-  <p>Ticket Type: ${selectedPersonType}</p>
   `;
 
   form.reset();
